@@ -1,0 +1,180 @@
+.type{
+    .UserHeader{
+            background-color:#F9FAFB;
+            width: 100%;
+            height:37px;
+            border-bottom: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            .ctn{
+                flex: 1;
+                font-size: 14px;
+                color:black;
+            }
+            .rt,.lt{
+            width: 50px;
+            height: 100%;
+            color:#666;
+            font-size:18px;
+            font-weight:100;
+            }
+    }
+    #content{
+        height: auto;
+        .lr{
+            background: url(https://h5rsc-ssl.vipstatic.com/lefeng/build/ce0cbb137bb02dffefc5d38959e9c489.png) no-repeat;
+            background-size: 100%;
+            width: 100%;
+            height: 77px;
+            position: relative;
+            .bg{
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                left:20px;
+                top:50%;
+                margin-top:-26px;
+                font-size:25px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 26px;
+                border:1px solid #D0B86E;
+                background:white;
+            }
+            .p{
+                width: 100px;
+                height: 18px;
+                position: absolute;
+                left:70px;
+                top:50%;
+                margin-top:-9px;
+                line-height: 18px;
+                text-align: center;
+                font-size:14px;
+
+            }
+        }
+        .goods{
+            width: 100%;
+            display:flex;
+            flex-direction: column;
+            div{
+                background: white;
+                width: 94%;
+                padding: 0 3%;
+                height: 45px;
+                font-size: 12px;
+                color: #666;
+                line-height: 45px;
+                border-top: 1px solid #eee;
+                // border-bottom: 1px solid #eee;
+            }
+            .do{
+                height: 40px;
+                line-height: 40px;
+                display:flex;
+                justify-content: space-between;
+                border-bottom: none;
+
+            }
+            .three{
+                height: 48px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    border: none;
+                    b,span{
+                        height:16px;
+                        line-height: 16px;
+                        font-size: 12px;
+                    }
+                    b{
+                        font-weight: normal;
+                        color: #f66;
+                    }
+                }
+            }
+            .same{
+                display: flex;
+                justify-content: space-between;
+                font-size:13px;
+                .left{
+                    width:100px;
+                    text-align: left;
+                    b{
+                        margin-right: 10px;
+                        font-size: 16px;
+                        font-weight: normal;
+                        color: #f99;
+                    }
+                }
+                .rt{
+                    width:70px;
+                    text-align: right;
+                    b{
+                        margin-left: 10px;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .dizi{
+                margin-bottom: 10px;
+            }
+            .huafeng{
+                margin-bottom: 10px;
+            }
+            .history{
+                margin-bottom: 10px;
+            }
+        }
+        .didlogin{
+            width: 180px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            background: #FF0056;
+            font-size: 15px;
+            border-radius:4px;
+            color: white;
+            margin: 10px auto;
+            display: none;
+        }
+        .footer{
+            height: 20px;
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+            div{
+                flex: 1;
+                font-size: 13px;
+            }
+            .let{
+                text-align: right;
+            }
+            .ctn{
+                text-align: center;
+            }
+            .rit{
+                text-align: left;
+            }
+        }
+        .call{
+            text-align: center;
+            font-size: 12px;
+            margin: 5px auto;
+            span{
+                color: #f99;
+                margin-right: 5px;
+            }
+        }
+        .end{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}

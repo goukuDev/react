@@ -1,0 +1,67 @@
+.findmmHeader{
+        background-color:#F9FAFB;
+        width: 100%;
+        height:37px;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        .ctn{
+            flex: 1;
+            font-size: 14px;
+            color:black;
+        }
+        .rt,.lt{
+        width: 50px;
+        height: 100%;
+        color:#666;
+        font-size:18px;
+        font-weight:100;
+        }
+}
+
+.findmmbox{
+    width: 288px;
+    margin: 25px auto 0;
+    input{
+        outline: none;
+        box-sizing: border-box;
+        border: none;
+        width: 100%;
+        padding: 8px;
+        font-size: 13px;
+        height: 36px;
+        &:nth-child(1){
+            border-bottom: 1px solid #ccc
+        }
+        &:nth-child(2){
+            border-bottom: 1px solid #ccc
+        }
+    }
+}
+.fbtn{
+    width: 288px;
+    height: 36px;
+    background: #FF0056;
+    color: white;
+    font-size:20px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+.conbox{
+    width: 200px;
+    height: 25px;
+    background: rgba(0,0,0,0.7);
+    line-height: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    position:absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -80px;
+    border-radius:5px;
+    display: none;
+}

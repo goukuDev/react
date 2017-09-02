@@ -1,0 +1,112 @@
+.loginHeader{
+        background-color:#F9FAFB;
+        width: 100%;
+        height:37px;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        .ctn{
+            flex: 1;
+            font-size: 14px;
+            color:black;
+        }
+        .rt,.lt{
+        width: 50px;
+        height: 100%;
+        color:#666;
+        font-size:18px;
+        font-weight:100;
+        }
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    .lrl{
+        margin: 25px auto 0;
+        width: 288px;
+        position: relative;
+        height: 72px;
+        .eyes{
+            position: absolute;
+            bottom: 9px;
+            right: 20px;
+            color: #666
+        }
+        .lname{
+            width: 288px;
+            height: 36px;
+            outline: none;
+            padding: 8px;
+            font-size: 13px;
+            box-sizing: border-box;
+            border: none;
+        }
+        .lpwd{
+            width: 288px;
+            height: 36px;
+            outline: none;
+            padding: 8px;
+            font-size: 13px;
+            box-sizing: border-box;
+            border: none;
+            border-top:1px solid #ccc;
+        }
+    }
+    .mdl{
+     text-align: left;
+     width: 288px;
+     height:20px;
+     line-height:20px;
+     font-size: 13px;
+     margin: 10px auto;   
+     b{
+         width: 20px;
+         height: 20px;
+         font-weight: normal;
+         margin-right: 10px;
+         color: black;
+     }
+    }
+    .btn{
+        width: 288px;
+        height: 38px;
+        background: #ff0056;
+        line-height: 38px;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        border: none;
+        outline: none;
+    }
+    .zc{
+        width: 288px;
+        height:12px;
+        line-height: 12px;
+        text-align: right;
+        font-size: 12px;
+        margin: 10px auto;
+        span{
+            color: #3195cb;
+            &:nth-child(1){
+                margin-right: 10px;
+            }
+        }
+    }
+    .conbox{
+        width: 200px;
+        height: 25px;
+        background: rgba(0,0,0,0.7);
+        line-height: 25px;
+        text-align: center;
+        font-size: 13px;
+        color: white;
+        position:absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -80px;
+        border-radius:5px;
+        display: none;
+    }
+}
